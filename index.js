@@ -1,10 +1,10 @@
 // utils
 const { info, error } = require('./utils/logger');
 // database
-const browser = require('./controllers/browser');
 const inDatabase = require('./database/createTable');
 const toDatabase = require('./database/saveData');
 // controllers
+const browser = require('./controllers/browser');
 const scraperController = require('./controllers/scraperController');
 const updateController = require('./controllers/updateController');
 // methods
