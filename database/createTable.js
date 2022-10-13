@@ -5,7 +5,7 @@ async function createTable () {
     const text = `
     CREATE TABLE IF NOT EXISTS "data" (
         "id" SERIAL,
-	    "category" VARCHAR(100) NOT NULL,
+	"category" VARCHAR(100) NOT NULL,
         "name" VARCHAR(100) NOT NULL,
         "price" VARCHAR(100) NOT NULL,
         "link" VARCHAR(200) NOT NULL,
